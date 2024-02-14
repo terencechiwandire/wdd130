@@ -7,15 +7,17 @@ main {
    
     border-radius: 50%;
     width: 300px;
-    padding: 20px 20px;
-    padding-inline: 100px;
+    border: 10px solid rgb(54, 56, 53);
+    margin: 30px 90px;
+
 
 }
 
 #top-img {
     width: 100%;
-    
+    height:fit-content;
 }
-body {
-    background-color: grey;
+
+#all-content {
+    max-width: fit-content;
 }
