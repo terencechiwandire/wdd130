@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+}
+
+.cherries {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  color: maroon;
+  font-size: 400%;
+  background-color: rgb(173, 166, 166);
+  padding: 200px 80px 15px 80px;
+  margin-top: 150px;
+  
+}
+
+.grid-img {
+   grid-column: 1/2;
+   grid-row: 1/2;
+   width: 500px;
+    
+}
+.grid-text {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-size: 800%;
+    z-index: 1;
+    margin-left: 90px;
+}
